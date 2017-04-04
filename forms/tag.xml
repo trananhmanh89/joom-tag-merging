@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<field 
+		name="original_tags" 
+		type="tag" 
+		label="Original tags" 
+		description="JTAG_DESC" 
+		mode="nested" 
+		multiple="true" />
+	<field 
+		name="target_tag" 
+		type="tag" 
+		label="Target tag" 
+		description="JTAG_DESC" 
+		mode="nested" 
+		multiple="false">
+		<option value="">- Choose Tag -</option>
+	</field>
+</form>
