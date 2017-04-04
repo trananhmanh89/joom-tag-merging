@@ -2,10 +2,9 @@
 <extension version="3.1" type="plugin" group="system" method="upgrade">
 	<name>Content Tag Merging for Joomla</name>
 	<creationDate>March 2017</creationDate>
-	<author>MrMeo - D4J Team</author>
-	<authorEmail>trananhmanh89@gmail.com</authorEmail>
-	<authorUrl>http://designforjoomla.com</authorUrl>
-	<copyright>By D4J</copyright>
+	<author>Mr. Meo</author>
+	<authorUrl>http://tranmeo.com</authorUrl>
+	<copyright>Mr. Meo</copyright>
 	<license>GPLv2 or later</license>
 	<version>1.0.0</version>
 	<description>Content Tag Merging for Joomla</description>
@@ -16,8 +15,5 @@
 		<folder>tmpl</folder>
 		<folder>toolbars</folder>
 	</files>
-	<updateservers>
-    <server type="extension" name="Content Tag Merging for Joomla" >http://designforjoomla.com/</server>
- </updateservers>
  <scriptfile>script.php</scriptfile>
 </extension>
