@@ -5,7 +5,7 @@
 	<author>Mr. Meo</author>
 	<authorUrl>http://tranmeo.com</authorUrl>
 	<copyright>Mr. Meo</copyright>
-	<license>GPLv2 or later</license>
+	<license>MIT</license>
 	<version>1.0.0</version>
 	<description>Content Tag Merging for Joomla</description>
 	<files>
