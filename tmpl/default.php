@@ -9,12 +9,14 @@ defined('_JEXEC') or die;
 				<h3>Select tags to merger</h3>
 	</div>
 	<div class="modal-body">
-		<div class="row-fluid">
-			<div class="span6">
-				<?php echo $this->form->renderField('original_tags') ?>
-			</div>
-			<div class="span6">
-				<?php echo $this->form->renderField('target_tag') ?>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span6">
+					<?php echo $this->form->renderField('original_tags') ?>
+				</div>
+				<div class="span6">
+					<?php echo $this->form->renderField('target_tag') ?>
+				</div>
 			</div>
 		</div>
 	</div>
