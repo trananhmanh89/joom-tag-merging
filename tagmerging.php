@@ -14,6 +14,7 @@ class PlgSystemTagMerging extends JPlugin {
 		$input = $app->input;
 		$task = $input->get('task');
 		if ($task === 'tag.merging') {
+			JSession::checkToken() or jexit(JText::_('JINVALID_TOKEN'));
 			$original = $input->get('original_tags');
 			if(empty($original)) {
 				$app->enqueueMessage('Please pick a tag to merge', 'error');
